@@ -15,7 +15,7 @@ You'll need [CommandBox](https://www.ortussolutions.com/products/commandbox) ins
 1. **Clone this repository:**
    ```bash
    git clone <repository-url>
-   cd cbwire-boxlang-start
+   cd cbwire-boxlang-quickstart
    ```
 
 2. **Install dependencies:**
@@ -36,7 +36,6 @@ That's it! Your application will be running and automatically open in your defau
 - **BoxLang**: Modern CFML runtime for better performance
 - **Bootstrap 5**: Responsive design and modern UI components
 - **Alpine.js**: Lightweight JavaScript framework (included with CBWIRE)
-- **Animated Background**: Beautiful gradient animations
 
 ## Features Demonstrated
 
