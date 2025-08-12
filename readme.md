@@ -14,7 +14,7 @@ You'll need [CommandBox](https://www.ortussolutions.com/products/commandbox) ins
 
 1. **Clone this repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/grantcopley/cbwire-boxlang-quickstart.git
    cd cbwire-boxlang-quickstart
    ```
 
