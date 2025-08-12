@@ -45,6 +45,30 @@ That's it! Your application will be running and automatically open in your defau
 - Responsive design patterns
 - Modern CSS animations
 
+## Core Files to Review
+
+When exploring this quickstart, pay special attention to these key files:
+
+### `wires/MyForm.bx` - The Component Logic
+This is the CBWIRE component class that handles:
+- **Data properties**: `name`, `email`, `submitted`, `hasErrors`
+- **Validation constraints**: Rules for required fields and email format
+- **Methods**: `submitForm()`, `onUpdate()`, `resetForm()`
+- **Real-time validation**: Updates validation state as users type
+
+### `wires/MyForm.bxm` - The Component Template  
+This is the component's view template featuring:
+- **Live data binding**: `wire:model.live` for reactive form fields
+- **Conditional rendering**: Dynamic content based on component state
+- **Validation feedback**: Error messages and visual indicators
+- **Alpine.js integration**: Client-side interactivity with CBWIRE
+
+### `layouts/Main.bxm` - The Application Layout
+The main layout file showcasing:
+- **Component integration**: How to wire components into layouts
+
+Start with these files to understand how CBWIRE components work together!
+
 ## Learn More
 
 - [CBWIRE Documentation](https://cbwire.ortusbooks.com)
