@@ -1,0 +1,22 @@
+{
+    "web":{
+        "rewrites":{
+            "enable":"true"
+        }
+    },
+    "dockEnable":false,
+    "trayEnable":false,
+    "fusionreactor":{
+        "enable":false
+    },
+    "app":{
+        "cfengine":"boxlang",
+        "serverHomeDirectory":".engine/boxlang"
+    },
+    "JVM":{
+        "javaVersion":"openjdk21_jdk"
+    },
+    "scripts":{
+        "onServerInitialInstall":"install bx-compat-cfml,bx-esapi"
+    }
+}

@@ -1,0 +1,18 @@
+class extends="cbwire.models.Component" {
+
+    data = {
+        "name": "",
+        "email": "",
+        "submitted": false
+    };
+
+    function submitForm() {
+        data.submitted = true;
+    }
+
+    function resetForm() {
+        data.submitted = false;
+        data.name = "";
+        data.email = "";
+    }
+}
