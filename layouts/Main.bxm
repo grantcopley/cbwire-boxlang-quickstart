@@ -17,12 +17,13 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 	<style>
 		:root {
-			--primary-blue: ##379BC1;
-			--gradient-bg: linear-gradient(135deg, ##667eea 0%, ##764ba2 100%);
+			--cbwire-gold: ##F4B942;
+			--cbwire-dark: ##3C3C3C;
+			--cbwire-darker: ##2A2A2A;
 		}
 		
 		body {
-			background: linear-gradient(-45deg, ##667eea, ##764ba2, ##9f7aea, ##4c51bf);
+			background: linear-gradient(-45deg, var(--cbwire-dark), ##5A5A5A, ##6A6A6A, var(--cbwire-darker));
 			background-size: 400% 400%;
 			animation: gradientShift 15s ease infinite;
 			min-height: 100vh;
@@ -61,7 +62,7 @@
 		}
 		
 		.welcome-title {
-			background: linear-gradient(45deg, var(--primary-blue), ##764ba2);
+			background: linear-gradient(45deg, var(--cbwire-gold), ##FFD700);
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 			background-clip: text;
@@ -70,7 +71,27 @@
 			font-size: 1.25rem;
 		}
 		
-		.text-blue { color: var(--primary-blue); }
+		.text-gold { color: var(--cbwire-gold); }
+		
+		.btn-cbwire {
+			background-color: var(--cbwire-gold);
+			border-color: var(--cbwire-gold);
+			color: ##1A1A1A;
+			font-weight: 600;
+		}
+		
+		.btn-cbwire:hover,
+		.btn-cbwire:focus {
+			background-color: ##FFD700;
+			border-color: ##FFD700;
+			color: ##1A1A1A;
+		}
+		
+		.btn-cbwire:disabled {
+			background-color: ##A0A0A0;
+			border-color: ##A0A0A0;
+			color: ##666666;
+		}
 	</style>
 
 	<!--- Title --->
